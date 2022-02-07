@@ -1,13 +1,14 @@
 body {
-    font-family: Arial;
+  font-family: Arial;
 }
 
 img {
-    height: 165px;
-    width: 300px;
+  height: 200px;
+  width: auto;
 }
 
 .shapes {
+  padding: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -38,16 +39,17 @@ img {
 }
 
 .chartgrid {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 p {
-    padding: 10px;
+  width: 500px;
+  padding: 10px;
 }
 
 #chart {
-    border: 5px solid;
-    margin: 5px;
+  border: 5px solid;
+  margin: 5px;
 }
