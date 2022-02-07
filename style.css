@@ -1,10 +1,10 @@
 body {
-    font-family: Arial;
+  font-family: Arial;
 }
 
 img {
-    height: 165px;
-    width: 300px;
+  height: 165px;
+  width: 300px;
 }
 
 .shapes {
@@ -36,19 +36,20 @@ img {
 .acknowledgements {
   text-align: center;
   list-style-position: inside;
+  padding-inline-start: 0px;
 }
 
 .chartgrid {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 p {
-    padding: 10px;
+  padding: 10px;
 }
 
 #chart {
-    border: 5px solid;
-    margin: 5px;
+  border: 5px solid;
+  margin: 5px;
 }
