@@ -1,5 +1,10 @@
 body {
-  font-family: Arial;
+    font-family: Arial;
+}
+
+img {
+    height: 165px;
+    width: 300px;
 }
 
 .shapes {
@@ -34,5 +39,15 @@ body {
 
 .chartgrid {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+p {
+    padding: 10px;
+}
+
+#chart {
+    border: 5px solid;
+    margin: 5px;
 }
