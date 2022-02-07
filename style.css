@@ -3,6 +3,7 @@ body {
 }
 
 .shapes {
+  padding: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -33,6 +34,6 @@ body {
 }
 
 .chartgrid {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
