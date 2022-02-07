@@ -1,3 +1,33 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
+}
+
+.shapes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle {
+  fill: #b0a1c2;
+}
+
+.circle:hover {
+  fill: #c2a2a1;
+}
+
+.rectangle {
+  fill: #c2a2a1;
+}
+
+.rectangle:hover {
+  fill: #b0a1c2;
+}
+
+.footer {
+  text-align: center;
+}
+
+.acknowledgements {
+  text-align: center;
+  list-style-position: inside;
 }
