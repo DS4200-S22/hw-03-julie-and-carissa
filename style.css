@@ -3,8 +3,13 @@ body {
 }
 
 img {
+<<<<<<< HEAD
   height: 165px;
   width: 300px;
+=======
+  height: 200px;
+  width: auto;
+>>>>>>> 8588d473dda60091664d6673550a847031fa5688
 }
 
 .shapes {
@@ -46,6 +51,7 @@ img {
 }
 
 p {
+  width: 500px;
   padding: 10px;
 }
 
